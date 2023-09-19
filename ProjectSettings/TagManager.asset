@@ -15,11 +15,12 @@ TagManager:
   - Notificator
   - Ice
   - Door
+  - Animal Die
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - 

@@ -20,6 +20,8 @@ public class RestoreController : MonoBehaviour
 
     private void OnMouseDown()
     {
-        SceneManager.LoadScene(1);
+        Scene currentScene = SceneManager.GetActiveScene();
+
+        SceneManager.LoadScene(currentScene.name);
     }
 }

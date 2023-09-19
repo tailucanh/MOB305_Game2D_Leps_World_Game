@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class ParticleController : MonoBehaviour
 {
-    private ParticleSystem particleSystem ;
+    private ParticleSystem particle;
 
     private void Start()
     {
-        particleSystem = GetComponent<ParticleSystem>();
+        particle = GetComponent<ParticleSystem>();
     }
 
     private void Update()
     {
-        if (particleSystem != null && particleSystem.isStopped && particleSystem.particleCount == 0)
+        if (particle != null && particle.isStopped && particle.particleCount == 0)
         {
             Destroy(gameObject);
         }
-      
+
     }
 }

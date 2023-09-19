@@ -20,6 +20,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -3588,10 +3590,10 @@ TextureImporter:
       LW3_Enemies-hd_154: 1717768471
       LW3_Enemies-hd_50: -820916411
       LW3_Enemies-hd_31: -1852453531
-      LW3_Enemies-hd_22: 1958637150
-      LW3_Enemies-hd_2: -315036033
-      LW3_Enemies-hd_83: -943666378
       LW3_Enemies-hd_65: 1124038580
+      LW3_Enemies-hd_83: -943666378
+      LW3_Enemies-hd_2: -315036033
+      LW3_Enemies-hd_22: 1958637150
       LW3_Enemies-hd_25: 2007998521
       LW3_Enemies-hd_114: 1202141988
       LW3_Enemies-hd_106: 1425436266
@@ -3715,7 +3717,6 @@ TextureImporter:
       LW3_Enemies-hd_26: 539675719
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

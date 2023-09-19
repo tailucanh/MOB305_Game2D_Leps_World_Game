@@ -125,15 +125,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8a8e41398417144ab5016827bf03d4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveDistance: 2
+  minMoveDistance: 1
+  maxMoveDistance: 5
   moveSpeed: 1
   rotateAngle: 180
   numberOfBlinks: 3
   blinkTime: 0.2
-  topCorner: {fileID: 2887016122727796818}
 --- !u!95 &2887016122727796830
 Animator:
-  serializedVersion: 5
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -150,4 +150,4 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
+  m_KeepAnimatorControllerStateOnDisable: 0

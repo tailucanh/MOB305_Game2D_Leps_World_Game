@@ -1,10 +1,10 @@
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+Built from '2022.1/staging' branch; Version is '2022.1.20f1 (01d83b40d570) revision 120891'; Using compiler version '192829333'; Build Type 'Release'
 OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 8072 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\Game2D\Editor\2021.3.16f1\Editor\Unity.exe
+D:\Game2D\Editor\2022.1.20f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,7 +15,7 @@ D:/Game2D/MOB305_Game2DPoly/MarioGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59537
+65004
 Successfully changed project path to: D:/Game2D/MOB305_Game2DPoly/MarioGame
 D:/Game2D/MOB305_Game2DPoly/MarioGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,14 +47,10 @@ D:/Game2D/MOB305_Game2DPoly/MarioGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20340] Host "[IP] 192.168.1.56 [Port] 0 [Flags] 2 [Guid] 362378041 [EditorId] 362378041 [Version] 1048832 [Id] WindowsEditor(7,Smileee) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-
-Player connection [20340] Host "[IP] 192.168.1.56 [Port] 0 [Flags] 2 [Guid] 362378041 [EditorId] 362378041 [Version] 1048832 [Id] WindowsEditor(7,Smileee) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
-
-Refreshing native plugins compatible for Editor in 1420.18 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 8961.18 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.3.16f1 (4016570cf34f)
-[Subsystems] Discovering subsystems at path D:/Game2D/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+Initialize engine version: 2022.1.20f1 (01d83b40d570)
+[Subsystems] Discovering subsystems at path D:/Game2D/Editor/2022.1.20f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Game2D/MOB305_Game2DPoly/MarioGame/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
@@ -64,54 +60,51 @@ Direct3D:
     VRAM:     2038 MB
     Driver:   27.20.1034.6
 Initialize mono
-Mono path[0] = 'D:/Game2D/Editor/2021.3.16f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Game2D/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/Game2D/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Mono path[0] = 'D:/Game2D/Editor/2022.1.20f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Game2D/Editor/2022.1.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Game2D/Editor/2022.1.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Game2D/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/Game2D/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009236 seconds.
+Register platform support module: D:/Game2D/Editor/2022.1.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Game2D/Editor/2022.1.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011170 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 677.03 ms, found 4 plugins.
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 924.61 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.179 seconds
+- Completed reload, in  4.714 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5180ms)
-		BeginReloadAssembly (329ms)
+	ReloadAssembly (4715ms)
+		BeginReloadAssembly (708ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (4360ms)
-			LoadAssemblies (334ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (487ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (3301ms)
+			LoadAssemblies (706ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (783ms)
+				TypeCache.Initialize (781ms)
+					TypeCache.ScanAssembly (777ms)
+				ResolveRequiredComponents (2ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (667ms)
-			SetupLoadedEditorAssemblies (2913ms)
+			RebuildScriptCaches (181ms)
+			SetupLoadedEditorAssemblies (2162ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (33ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1871ms)
-				BeforeProcessingInitializeOnLoad (9ms)
-				ProcessInitializeOnLoadAttributes (288ms)
-				ProcessInitializeOnLoadMethodAttributes (711ms)
+				InitializePlatformSupportModulesInManaged (294ms)
+				SetLoadedEditorAssemblies (32ms)
+				RefreshPlugins (925ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (687ms)
+				ProcessInitializeOnLoadMethodAttributes (217ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 3.477621 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Game2D\MOB305_Game2DPoly\MarioGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Game2D\MOB305_Game2DPoly\MarioGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 236.64 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Registered in 0.031254 seconds.
+Android Extension - Scanning For ADB Devices 9047 ms
